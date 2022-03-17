@@ -43,7 +43,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
-				<artifactId>jetty‐maven‐plugin</artifactId>
+				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.4.7.v20170914</version>
 				<configuration>
 					<contextPath>/</contextPath>
@@ -65,25 +65,27 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven‐site‐plugin</artifactId>
+				<artifactId>maven-site-plugin</artifactId>
 				<version>3.3</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven‐project‐info‐reports‐plugin</artifactId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>2.7</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven‐surefire‐report‐plugin</artifactId>
-				<version>3.0.0‐M5</version>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>3.0.0-M5</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven‐javadoc‐plugin</artifactId>
+				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>3.1.1</version>
 			</plugin>
 		</plugins>
 	</reporting>
+
+
 
 </project>
